@@ -1,0 +1,6 @@
+framework module Pods_spaceXTestApp_spaceXTestAppUITests {
+  umbrella header "Pods-spaceXTestApp-spaceXTestAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,21 @@
+use_frameworks!
+
+ platform :ios, '9.0'
+
+target 'spaceXTestApp' do
+       pod 'shared', :path => '../shared'
+
+
+  # Pods for spaceXTestApp
+
+  target 'spaceXTestAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'spaceXTestAppUITests' do
+    # Pods for testing
+  end
+
+end
+   
